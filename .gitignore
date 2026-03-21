@@ -1,0 +1,6 @@
+/perf/
+/.idea/
+*.pyc
+*.xml
+*.iml
+*.pkl
