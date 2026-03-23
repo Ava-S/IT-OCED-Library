@@ -1,0 +1,17 @@
+# Database Credentials and Information
+db_name: "neo4j"
+uri: "bolt://localhost:7687"
+user: "neo4j"
+password: "libraries"
+
+
+# Dataset information
+dataset_name: "library"
+semantic_header_path: "../3_json_files/library.json"
+dataset_description_path: "../3_json_files/library_DS.json"
+use_sample: false
+
+# Import settings
+verbose: false
+batch_size: 10000
+use_preprocessed_files: false
