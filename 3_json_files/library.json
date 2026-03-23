@@ -34,27 +34,32 @@
         {
           "prevalent_record": "(record:Book1Record)",
           "result": "(a:Entity:Book {IDENTIFIER sysId: record.bookId1})",
-          "infer_corr_from_event_record": true
+          "infer_corr_from_event_record": true,
+          "corr_type": "OBSERVES"
         },
         {
           "prevalent_record": "(record:Book2Record)",
           "result": "(a:Entity:Book {IDENTIFIER sysId: record.bookId2})",
-          "infer_corr_from_event_record": true
+          "infer_corr_from_event_record": true,
+          "corr_type": "OBSERVES"
         },
         {
           "prevalent_record": "(record:Book3Record)",
           "result": "(a:Entity:Book {IDENTIFIER sysId: record.bookId3})",
-          "infer_corr_from_event_record": true
+          "infer_corr_from_event_record": true,
+          "corr_type": "OBSERVES"
         },
         {
           "prevalent_record": "(record:Book4Record)",
           "result": "(a:Entity:Book {IDENTIFIER sysId: record.bookId4})",
-          "infer_corr_from_event_record": true
+          "infer_corr_from_event_record": true,
+          "corr_type": "OBSERVES"
         },
         {
           "prevalent_record": "(record:Book5Record)",
           "result": "(a:Entity:Book {IDENTIFIER sysId: record.bookId5})",
-          "infer_corr_from_event_record": true
+          "infer_corr_from_event_record": true,
+          "corr_type": "OBSERVES"
         }
       ]
     },
@@ -64,7 +69,8 @@
         {
           "prevalent_record": "(record:MemberRecord)",
           "result": "(a:Entity:Member {IDENTIFIER sysId: record.memberId, IDENTIFIER registrationId: record.registrationId, OPTIONAL firstName: record.firstName, OPTIONAL lastName: record.lastName, OPTIONAL dateOfBirth: record.dateOfBirth, OPTIONAL ageCategory: record.ageCategory, OPTIONAL subscriptionType: record.subscriptionType})",
-          "infer_corr_from_event_record": true
+          "infer_corr_from_event_record": true,
+          "corr_type": "OBSERVES"
         }
       ]
     },
