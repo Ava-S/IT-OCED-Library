@@ -1,3 +1,7 @@
+> [!IMPORTANT]  
+> The full paper can be found here: Swevels, A., Montali, M., ZERBATO, F., & Fahland, D. (2026). [FULL PAPER BPM PRE-PRINT] Temporal Object-Centric Event Data A Property-Graph-Based Model with Consistency Constraints. Zenodo. https://doi.org/10.5281/zenodo.22899749
+
+
 # IT-OCED for a Library Instance
 
 This repository contains the code required to (1) generate simulation data for a library domain and (2) build an IT‑OCED instance in Neo4j using PromG and custom Cypher queries.
